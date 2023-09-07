@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\space background.jpg",
+      "PackagePath": "staticwebassets\\lib\\Images\\space background.jpg"
+    },
+    {
       "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

@@ -1,10 +1,26 @@
-﻿@page
+﻿@page 
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center" id="bg">
-    <h1 class="display-4 slide-up">Welcome</h1>
-    <p>New App! This is frustrating.</p>
+    <h1 class="display-4 slide-up">Welcome To the ASP Net Core Web App Demo</h1>
+    <p>This website will show you how to set up a ASP Net Core web app and how to build on it. Consider the table of contents below:</p>
+    <div class="d-flex justify-content-center mt-5">
+        <div class="toc-container">
+            <h2 id="TOC" class="display-6">Table of Contents</h2>
+            <ul class="table-of-contents">
+                <li class="mb-2">Steps to setting up Net template</li>
+                <li class="mb-2">
+                    <ol>
+                        <li class="text-left mb-2"><a class="toc-item ml-0 pl-0" asp-area="" asp-page="/Starting Out/Installation">VS 2022 download</a></li>
+                        <li class="text-left mb-2"><a class="toc-item ml-0 pl-0" class="toc-item" asp-area="" asp-page="/Starting Out/CreateTemplate">Creating solution template</a></li>
+                        <li class="text-left mb-2"><a class="toc-item ml-0 pl-0" asp-area="" asp-page="/Starting Out/TestProject">Testing web app</a></li>
+                    </ol>
+                </li>
+                <li class="mb-2"><a class="toc-item ml-0 pl-0" asp-area="" asp-page="/SolutionStructure">File Structure</a></li>
+            </ul>
+        </div>
+    </div>
 </div>

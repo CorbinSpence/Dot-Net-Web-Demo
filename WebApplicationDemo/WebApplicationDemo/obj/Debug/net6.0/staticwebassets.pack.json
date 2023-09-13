@@ -21,6 +21,30 @@
       "PackagePath": "staticwebassets\\lib\\Images\\space background.jpg"
     },
     {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.svg"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
+    },
+    {
       "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

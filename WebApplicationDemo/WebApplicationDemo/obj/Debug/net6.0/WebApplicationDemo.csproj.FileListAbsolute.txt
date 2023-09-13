@@ -28,3 +28,4 @@ E:\Dot Net Web App Demo\WebApplicationDemo\WebApplicationDemo\obj\Debug\net6.0\r
 E:\Dot Net Web App Demo\WebApplicationDemo\WebApplicationDemo\obj\Debug\net6.0\WebApplicationDemo.pdb
 E:\Dot Net Web App Demo\WebApplicationDemo\WebApplicationDemo\obj\Debug\net6.0\WebApplicationDemo.genruntimeconfig.cache
 E:\Dot Net Web App Demo\WebApplicationDemo\WebApplicationDemo\obj\Debug\net6.0\ref\WebApplicationDemo.dll
+E:\Dot Net Web App Demo\WebApplicationDemo\WebApplicationDemo\bin\Debug\net6.0\libman.json

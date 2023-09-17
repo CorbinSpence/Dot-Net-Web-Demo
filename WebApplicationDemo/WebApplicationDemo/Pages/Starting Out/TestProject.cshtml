@@ -3,10 +3,12 @@
 @{
     ViewData["Title"] = "Testing Your Project";
 }
-<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5">
+<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5 main-container">
     <h1>Testing your project</h1>
     <section>
         <p>To test the project, navigate to the nav bar below the main one to a button with a play symbol and the name of the project next to it. Press that button to begin building and setting up your webpage and hosting server.</p>
         <p>One issue that you may come across when running the project is that it will respond with a message saying that the website is not secure. To resolve this issue, you first need to annd the ssl tokens to your browsing settings to ensure that the site is always given authorization. If the problem stil persists, change your browser settings so that invalid certificates from localhost will be allowed. If you are using Google Chrome, you can go to the <a href="chrome://flags/">flags</a> settings and enable this feature. </p>
+        <img src="/lib/Images/set-localhost.jpg" alt="work load image" class="mb-5 img-screenshot" />
     </section>
+    <a asp-area="" asp-page="/SolutionStructure"><button class="btn btn-outline-light">Project Structure</button></a>
 </div>

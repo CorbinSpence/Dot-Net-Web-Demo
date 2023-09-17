@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OlUS/LSz59sHYvBIfj5VXYSZRMdlT0LxZZ7JMNMIj4o=",
+  "Hash": "HuFCGwUGybV5OhDCg5qHDc4BNIw6bNUtNjcsxSfeNd8=",
   "Source": "WebApplicationDemo",
   "BasePath": "_content/WebApplicationDemo",
   "Mode": "Default",
@@ -969,6 +969,40 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
     },
     {
+      "Identity": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\new_project.png",
+      "SourceId": "WebApplicationDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\",
+      "BasePath": "_content/WebApplicationDemo",
+      "RelativePath": "lib/Images/new_project.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Images\\new_project.png"
+    },
+    {
+      "Identity": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\set-localhost.jpg",
+      "SourceId": "WebApplicationDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\",
+      "BasePath": "_content/WebApplicationDemo",
+      "RelativePath": "lib/Images/set-localhost.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Images\\set-localhost.jpg"
+    },
+    {
       "Identity": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\space background.jpg",
       "SourceId": "WebApplicationDemo",
       "SourceType": "Discovered",
@@ -984,6 +1018,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\Images\\space background.jpg"
+    },
+    {
+      "Identity": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\Workload_snapshot.jpg",
+      "SourceId": "WebApplicationDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\",
+      "BasePath": "_content/WebApplicationDemo",
+      "RelativePath": "lib/Images/Workload_snapshot.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Images\\Workload_snapshot.jpg"
     },
     {
       "Identity": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",

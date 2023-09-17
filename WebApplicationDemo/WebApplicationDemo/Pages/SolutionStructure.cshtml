@@ -4,26 +4,61 @@
     ViewData["Title"] = "Template Structure";
 }
 
-<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5">
+<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5 main-container">
     <h1>Template File Structure</h1>
-    <section class="text-start">
-        <i class="bi bi-folder"></i> ProjectName<br>
-        |    <i class="bi bi-folder"></i> Connected Services<br>
-        |    <i class="bi bi-folder"></i> Dependencies<br>
-        |    <i class="bi bi-folder"></i> Properties<br>
-        |    |    <i class="bi bi-filetype-json"></i>launchsettings.json<br>
-        |    <i class="bi bi-folder"></i> wwwroot<br>
-        |    |    <i class="bi bi-folder"></i> css<br>
-        |    |    <i class="bi bi-folder"></i> js<br>
-        |    |    <i class="bi bi-folder"></i> </i> lib<br>
-        |    <i class="bi bi-folder"></i> Pages<br>
-        |    |    <i class="bi bi-folder"></i> Shared<br>
-        |    |    |    <i class="bi bi-file-earmark"></i> _layout.cshtml<br>
-        |    |    |    <i class="bi bi-file-earmark"></i> _ValidationScriptsPartial.cshtml<br>
-        |    |    <i class="bi bi-file-earmark"></i> Index.cshtml<br>
-        |    |    <i class="bi bi-file-earmark"></i> Privacy.cshtml<br>
-        |    |    <i class="bi bi-file-earmark"></i> Error.cshtml<br>
-        |    <i class="bi bi-filetype-json"></i>appsettings.json<br>
-        |    <i class="bi bi-folder"></i> Program.cs<br>
+    <ul class=" text-start mx-auto list-unstyled w-fit-content pl-30">
+        <li><i class="bi bi-folder"></i> ProjectName</li>
+        <li><i class="bi bi-folder"></i> Connected Services</li>
+        <li><i class="bi bi-folder"></i> Dependencies</li>
+        <li><i class="bi bi-folder"></i> Properties</li>
+        <ul class="list-unstyled pl-30">
+            <li><i class="bi bi-filetype-json"></i> launchsettings.json</li>
+        </ul>
+        <li><i class="bi bi-folder"></i> wwwroot</li>
+        <ul class="list-unstyled pl-30">
+            <li><i class="bi bi-folder"></i> css</li>
+            <ul class="list-unstyled pl-30">
+                <li><i class="bi bi-filetype-css"></i> site.css</li>
+            </ul>
+            <li><i class="bi bi-folder"></i> js</li>
+            <ul class="list-unstyled pl-30">
+                <li><i class="bi bi-filetype-js"></i> site.js</li>
+            </ul>
+            <li><i class="bi bi-folder"></i> lib</li>
+            <ul class="list-unstyled pl-30">
+
+            </ul>
+        </ul class="list-unstyled">
+        <li><i class="bi bi-folder"></i> Pages</li>
+        <ul class="list-unstyled pl-30">
+            <li><i class="bi bi-folder"></i> Shared</li>
+            <ul class="list-unstyled pl-30">
+                <li><i class="bi bi-file-earmark"></i> _layout.cshtml</li>
+                <li><i class="bi bi-file-earmark"></i> _ValidationScriptsPartial.cshtml</li>
+            </ul>
+            <li><i class="bi bi-file-earmark"></i> Index.cshtml</li>
+            <li><i class="bi bi-file-earmark"></i> Privacy.cshtml</li>
+            <li><i class="bi bi-file-earmark"></i> Error.cshtml</li>
+        </ul>
+        <li><i class="bi bi-filetype-json"></i>appsettings.json</li>
+        <li><i class="bi bi-filetype-cs"></i> Program.cs</li>
+    </ul>
+    <section>
+        <h3 class="text-center">Important folders and files</h3>
+        <ul class="text-start w-75 mx-auto">
+            <li class="pl-3"><strong>Properties</strong>: Contains a json file that establishes launch settings such as localhost port number.</li>
+            <ul>
+                <li><strong>launchsettings.json</strong>: Sets up launch conditions.</li>
+            </ul>
+            <li class="pl-3"><strong>wwwroot</strong>: This this a public resource folder that contains styling, scripts, imports, and other files such as jpegs and pngs. Pages will pull their resources from here.</li>
+            <li class="pl-3"><strong>Pages</strong>: This is where cshtml webpages are setup and stored. cshtml file use html code to implement the front end, while the cs code handles the back end.</li>
+            <ul>
+                <li><strong>Index.cshtml</strong>: This is essentially the home page that first opens when you run the app. </li>
+            </ul>
+            <li class="pl-3"><strong>Shared</strong>: This is a subfolder for Pages. It stores the general html structure that encapsulates every other page. Provides features such as the header and footer.</li>
+            <ul>
+                <li class="pl-3"><strong>_layout.cshtml</strong>: This is a general html framework that all other pages are placed within.</li>
+            </ul>
+        </ul>
     </section>
 </div>

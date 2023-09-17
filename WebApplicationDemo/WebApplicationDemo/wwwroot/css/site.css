@@ -42,7 +42,7 @@ body {
     text-decoration:none;
     color: white;
 }
-.toc-container {
+.main-container {
     background-color: rgb(0, 0, 0, 80%);
     border-radius: 20px;
     padding: 20px;
@@ -51,6 +51,19 @@ body {
 .toc-container:hover {
     box-shadow: 0px 0px 7px 5px;
     transition-duration: .5s;
+}
+.w-fit-content{
+    width: fit-content;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+.img-screenshot{
+    height: 400px;
+    max-width: 75%;
 }
 @keyframes fadeInTrans{
     0%{

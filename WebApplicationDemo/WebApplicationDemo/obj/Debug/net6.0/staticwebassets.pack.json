@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\Workload_snapshot.jpg",
+      "PackagePath": "staticwebassets\\lib\\Images\\Workload_snapshot.jpg"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\new_project.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\new_project.png"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\set-localhost.jpg",
+      "PackagePath": "staticwebassets\\lib\\Images\\set-localhost.jpg"
+    },
+    {
       "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\space background.jpg",
       "PackagePath": "staticwebassets\\lib\\Images\\space background.jpg"
     },

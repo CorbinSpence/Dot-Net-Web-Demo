@@ -17,6 +17,26 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\Bootstrap Doc Page.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\Bootstrap Doc Page.png"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\Client-Side Manager Path.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\Client-Side Manager Path.png"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\Client-Side Manager Window.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\Client-Side Manager Window.png"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\NuGet Packages Path.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\NuGet Packages Path.png"
+    },
+    {
+      "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\NuGet Tab.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\NuGet Tab.png"
+    },
+    {
       "Id": "E:\\Dot Net Web App Demo\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\Images\\Workload_snapshot.jpg",
       "PackagePath": "staticwebassets\\lib\\Images\\Workload_snapshot.jpg"
     },

@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/HowToPages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG93VG9QYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +34,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/SolutionStructure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdXRpb25TdHJ1Y3R1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/Starting Out/CreateTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhcnRpbmcgT3V0XENyZWF0ZVRlbXBsYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/Starting Out/Installation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhcnRpbmcgT3V0XEluc3RhbGxhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/Starting Out/TestProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhcnRpbmcgT3V0XFRlc3RQcm9qZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Dot Net Web App Demo/WebApplicationDemo/WebApplicationDemo/Pages/_ViewImports.cshtml]

@@ -1,3 +1,7 @@
+:root {
+    --sun_yellow: #f7fc58;
+    --sun_orange: #fc6a26;
+}
 html {
     font-size: 14px;
     background-image: url('../lib/Images/space background.jpg');
@@ -80,5 +84,24 @@ body {
 
     100% {
         top: 0px;
+    }
+}
+.Navbar-Color-Animation{
+    animation-name: NavColorChange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes NavColorChange{
+    0% {
+        background-color: var(--sun_yellow);
+        box-shadow: 0px 0px 15px 1px var(--sun_yellow);
+    }
+    50% {
+        background-color: var(--sun_orange);
+        box-shadow: 0px 0px 5px 1px var(--sun_orange);
+    }
+    100% {
+        background-color: var(--sun_yellow);
+        box-shadow: 0px 0px 15px 1px var(--sun_yellow);
     }
 }

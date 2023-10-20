@@ -3,10 +3,15 @@
 @{
     ViewData["Title"] = "Importing from Bootstrap";
 }
-<div>
+<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5 main-container">
     <p>If you wish to add Bootstrap and related assets to your site, you will have to add them to your "wwwroot/lib" folder. Right click on the lib folder then navigate to "Add" -> "Client-Side Library..."</p>
-    <img src="/lib/Images/Client-Side Manager Path.png" alt="Client-Side Manager Path" class="mb-5 img-screenshot" />
+    <img src="/lib/Images/Client-Side Manager Path.png" alt="Client-Side Manager Path" class="mb-5 img-screenshot mx-auto" />
     <p>You will be taken to a window where you can search up specific resources to import.</p>
-    <img src="/lib/Images/Client-Side Manager Window.png" alt="Client-Side Manager Window" class="mb-5 img-screenshot" />
+    <img src="/lib/Images/Client-Side Manager Window.png" alt="Client-Side Manager Window" class="mb-5 img-screenshot mx-auto" />
     <p>Once you select an option, you choose which files you want to import and then click "Install". If you were adding css classes, you can just apply them to html elements. There is no need directly reference the newly imported files.</p>
+    <div class="page-nav d-flex flex-row  align-self-center flex-nowrap justify-content-center gap-5">
+        <a asp-area="" asp-page="/Bootstrap Tutorial/GeneralBootstrap"><button class="btn btn-outline-light">Back</button></a>
+        <a asp-area="" asp-page="/Index"><button class="btn btn-outline-light">Table Of Contents</button></a>
+        <a asp-area="" asp-page="/NuGetExtensions"><button class="btn btn-outline-light">Next</button></a>
+    </div>
 </div>

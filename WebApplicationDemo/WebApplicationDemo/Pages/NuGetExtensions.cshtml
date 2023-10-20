@@ -3,9 +3,13 @@
 @{
     ViewData["Title"] = "NuGet Extensions";
 }
-<div>
+<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5 main-container">
     <p>When working with the backend of a ASP Net web app, you will most likely need to install extensions to have your code do certian tasks such as access a persistant database. Right click on your solution in the "Solution explorer" and navigate to "Manage NuGet Packages for Solution..."</p>
-    <img src="/lib/Images/NuGet Packages Path.png" alt="Path to NuGet Manager" class="mb-5 img-screenshot" />
+    <img src="/lib/Images/NuGet Packages Path.png" alt="Path to NuGet Manager" class="mb-5 img-screenshot mx-auto" />
     <p>A tab will open where you will be able to search for C# extensions and choose which version of them you want. Note: You may need to get an earlier version of the package if you are working with older frameworks.</p>
-    <img src="/lib/Images/NuGet Tab.png" alt="NuGet Tab" class="mb-5 img-screenshot" />
+    <img src="/lib/Images/NuGet Tab.png" alt="NuGet Tab" class="mb-5 img-screenshot mx-auto" />
+    <div class="page-nav d-flex flex-row  align-self-center flex-nowrap justify-content-center gap-5">
+        <a asp-area="" asp-page="/Bootstrap Tutorial/ImportingCSS"><button class="btn btn-outline-light">Back</button></a>
+        <a asp-area="" asp-page="/Index"><button class="btn btn-outline-light">Table Of Contents</button></a>
+    </div>
 </div>

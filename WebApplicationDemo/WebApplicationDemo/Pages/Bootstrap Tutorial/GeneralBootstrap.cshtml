@@ -3,8 +3,13 @@
 @{
     ViewData["Title"] = "Basic Bootstrap Usage";
 }
-<div>
+<div class ="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5 main-container">
     <p>Upon creating your project, you will have access to basic bootstrap css classes. If you are not familiar with bootstrap, you can go to the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap Documentation</a> to see the premade styles you can apply.</p>
-    <img src="/lib/Images/Bootstrap Doc Page.png" alt="Client-Side Manager Path" class="mb-5 img-screenshot" />
+    <img src="/lib/Images/Bootstrap Doc Page.png" alt="Client-Side Manager Path" class="mb-5 img-screenshot mx-auto" />
     <p>Certain features from Bootstrap, such as icons, won't be automaticaly available for your webpages, so you will have to manually import those feature to your project.'</p>
+    <div class="page-nav d-flex flex-row  align-self-center flex-nowrap justify-content-center gap-5">
+        <a asp-area="" asp-page="/Database Tutorial/SQLUsage"><button class="btn btn-outline-light">Back</button></a>
+        <a asp-area="" asp-page="/Index"><button class="btn btn-outline-light">Table Of Contents</button></a>
+        <a asp-area="" asp-page="/Bootstrap Tutorial/ImportingCSS"><button class="btn btn-outline-light">Next</button></a>
+    </div>
 </div>

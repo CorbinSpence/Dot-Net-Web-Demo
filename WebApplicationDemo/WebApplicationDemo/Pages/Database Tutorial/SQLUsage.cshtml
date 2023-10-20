@@ -2,24 +2,31 @@
 @model WebApplicationDemo.Pages.SQLUsageModel
 @{
 }
-<table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Sender</th>
-            <th>Message</th>
-            <th>Time Stamp</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.listInfo)
-        {
+<div class="d-flex flex-column align-self-center flex-nowrap col-10 text-center mx-auto mt-5 main-container">
+    <table>
+        <thead>
             <tr>
-                <td>@item.id</td>
-                <td>@item.sender</td>
-                <td>@item.payload</td>
-                <td>@item.time_stamp</td>
+                <th>ID</th>
+                <th>Sender</th>
+                <th>Message</th>
+                <th>Time Stamp</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.listInfo)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <td>@item.sender</td>
+                    <td>@item.payload</td>
+                    <td>@item.time_stamp</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="page-nav d-flex flex-row  align-self-center flex-nowrap justify-content-center gap-5">
+        <a asp-area="" asp-page="/SolutionStructure"><button class="btn btn-outline-light">Back</button></a>
+        <a asp-area="" asp-page="/Index"><button class="btn btn-outline-light">Table Of Contents</button></a>
+        <a asp-area="" asp-page="/Bootstrap Tutorial/GeneralBootstrap"><button class="btn btn-outline-light">Next</button></a>
+    </div>
+</div>
